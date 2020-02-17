@@ -1,0 +1,47 @@
+thead {
+color:white;
+background-color:blue;
+}
+
+tbody {
+color:blue;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+.roostertitle{
+    font-weight:bold;
+    font-size: 2rem;
+
+}
+.roostertable{
+    width:60%;
+    margin: 30px auto;
+}
+#result{
+  margin:0 auto;
+  font-weight:bold;
+  color:green;
+  font-size:1.5em;
+  text-align: center;
+
+}
+
+#ToonRooster{
+  display:none;
+}
+#ShowRooster{
+  background-color:blue;
+  color:white;
+  padding:20px;
+  font-weight:bold;
+  font-size:1em;  
+  border: 5px solid rgb(76, 127, 175);
+  
+}
+
+#ButtonWrapper{
+  width:100%;
+  text-align:center;
+}
