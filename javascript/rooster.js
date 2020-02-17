@@ -34,6 +34,14 @@ let dagenarray = new Array("Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag")
 
 dagenarray.forEach(dagrooster);
 
+function testfunctie(x){
+    if(x<5){
+        return "test success";
+    }
+
+    return "test failed";
+
+}
 
 
 // voor alle dagen functie
@@ -142,5 +150,7 @@ function dagrooster(dag, index){
       personeelarray.forEach((person)=>{resultaatstring+= `naam: ${person.naam} - uren: ${person.aantalurengewerkt} </br>`});
 
       document.getElementById("result").innerHTML=resultaatstring;
+
+      module.exports.testfunctie;
 
 
